@@ -1,9 +1,12 @@
 fastapi
 uvicorn
-langchain
-langchain-google-genai
-langchain-community
-chromadb
-pypdf
 python-dotenv
+pandas
+openpyxl
+langchain
+langchain-core
+langchain-google-genai
+langchain-chroma
+chromadb
+google-generativeai
 sentence-transformers

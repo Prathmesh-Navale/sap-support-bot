@@ -1,0 +1,17 @@
+#dsa practice 
+s = "abcabcbb"
+chat_set=set()
+left=0
+maxlenght=0
+for right in range(len(s)):
+    while s[right] in chat_set:
+        chat_set.remove(s[left])
+        left+=1
+    
+    chat_set.add(s[right])
+
+    maxlenght=max(maxlenght,right-left+1)
+
+print(maxlenght)
+ 
+
